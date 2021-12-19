@@ -13,6 +13,10 @@ function background () {
             $(this).removeClass("past");
             $(this).removeClass("furture");
             $(this).addClass("present");
+        } else {
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            $(this).removeClass("future");
         }
     })
 }
